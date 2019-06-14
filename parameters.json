@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "serverName": {
+            "value": "lexxsql"
+        },
+        "databaseName": {
+            "value": "GameStoreDB"
+        },
+        "DBServer": {
+            "value": "lexxazsql.database.windows.net"
+        },
+        "administratorLogin": {
+            "value": "lexxsa"
+        },
+        "administratorLoginPassword": {
+            "value": "P@ssw0rd"
+        },
+        "databaseUsername": {
+            "value": "lexxsa"
+        },
+        "databasePassword": {
+            "value": "P@ssw0rd"
+        },
+        "name": {
+            "value": "LEXXGameStoreDemo3"
+        },
+        "hostingPlanName": {
+            "value": "GameStoreAppServicePlan"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "location": {
+            "value": "Central US"
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "serverFarmResourceGroup": {
+            "value": "LEXXGameStoreDemo3"
+        },
+        "skuCode": {
+            "value": "S1"
+        },
+        "subscriptionId": {
+            "value": "188a51e6-1332-42d8-a6f5-22a5cf637f93"
+        }
+    }
+}
